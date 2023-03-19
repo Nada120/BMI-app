@@ -1,16 +1,21 @@
-# bmi_app
+# BMI app
 
-A new Flutter project.
+A Flutter project with using flutter_bloc package to set the changes on the app.
 
-## Getting Started
+## The Tools I Used To Build The App:  
 
-This project is a starting point for a Flutter application.
+1) flutter framework  
+2) flutter_bloc package  
+3) I used cubit instead of bloc  
 
-A few resources to get you started if this is your first Flutter project:
+## The Structure Of The Project.  
+**There are four folders in lib folder:**    
+1_ 'bussiness_logic' this folder contains the cubit iplemenntation
+2_ 'comp' this folder contains some widget that help in creating the same widget but different parameters  
+3_ 'constants' this folder contains file that has the colors of the app  
+4_ 'screens' this folder contains two screens 'home_page' & 'result_page'  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## The App Final Result:  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![screen1](https://user-images.githubusercontent.com/74355967/226160738-9491e183-d489-43ec-9911-41074e030382.png)
+![screen2](https://user-images.githubusercontent.com/74355967/226160747-72127084-ac3b-4558-991c-e185d4cdbe7a.png)
